@@ -1,0 +1,40 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "this is simple api for dialogflow chatbot using the api.ai package .. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start_dev": "nodemon index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "api-ai",
+    "dialogflow",
+    "nodejs",
+    "sdk",
+    "express",
+    "uuid",
+    "chat",
+    "nlp",
+    "api"
+  ],
+  "author": "tetrabyte team",
+  "license": "MIT",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">8.x.x"
+  }
+}

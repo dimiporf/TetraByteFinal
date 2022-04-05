@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/uuid": "^8.3.4",
+    "v4": "^0.0.1"
+  },
+  "dependencies": {
+    "@types/uuid-js": "^0.7.3",
+    "lodash": "^4.17.11",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13"
+  }
+}
